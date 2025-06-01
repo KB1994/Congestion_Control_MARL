@@ -1,0 +1,98 @@
+2025-05-31 23:06:00,033 [INFO] Ryu controller started. Logging initialized.
+2025-05-31 23:06:05,270 [INFO] [Metrics @ 23:06:05] Packet-ins: 1, Flow-adds: 4, Total Bytes: 0
+2025-05-31 23:06:10,117 [INFO] [RL Decision] DPID=4  LOSS=0.0000  DELAY=0.00ms  THR=0B  JIT=0B  FREE_BW=0.00Mbps  LABEL=Efficient  ACTION=decrease_bw_reroute
+2025-05-31 23:06:10,118 [INFO] [RL Decision] DPID=1  LOSS=0.0000  DELAY=0.00ms  THR=0B  JIT=0B  FREE_BW=0.00Mbps  LABEL=Efficient  ACTION=hold_bw_reroute
+2025-05-31 23:06:10,118 [INFO] [RL Decision] DPID=3  LOSS=0.0000  DELAY=0.00ms  THR=0B  JIT=0B  FREE_BW=0.00Mbps  LABEL=Efficient  ACTION=decrease_bw_reroute
+2025-05-31 23:06:10,118 [INFO] [RL Decision] DPID=2  LOSS=0.0000  DELAY=0.00ms  THR=0B  JIT=0B  FREE_BW=0.00Mbps  LABEL=Efficient  ACTION=hold_bw_keep_path
+2025-05-31 23:06:10,120 [INFO] Delay for dpid 4: 1.358 ms
+2025-05-31 23:06:10,121 [INFO] Delay for dpid 1: 2.425 ms
+2025-05-31 23:06:10,121 [INFO] Delay for dpid 3: 2.612 ms
+2025-05-31 23:06:10,121 [INFO] Delay for dpid 2: 2.753 ms
+2025-05-31 23:06:10,709 [INFO] [Metrics @ 23:06:10] Packet-ins: 297, Flow-adds: 0, Total Bytes: 40157
+2025-05-31 23:06:15,120 [INFO] Delay for dpid 1: 0.798 ms
+2025-05-31 23:06:15,120 [INFO] Delay for dpid 4: 1.078 ms
+2025-05-31 23:06:15,128 [INFO] Delay for dpid 3: 8.956 ms
+2025-05-31 23:06:15,128 [INFO] Delay for dpid 2: 9.076 ms
+2025-05-31 23:06:18,069 [INFO] [Metrics @ 23:06:18] Packet-ins: 6, Flow-adds: 0, Total Bytes: 858
+2025-05-31 23:06:20,118 [INFO] [Port Loss] DPID=4 Port=1: Loss=0.0000%
+2025-05-31 23:06:20,118 [INFO] [Port Loss] DPID=4 Port=4: Loss=0.0000%
+2025-05-31 23:06:20,118 [INFO] [Port Loss] DPID=4 Port=2: Loss=0.0000%
+2025-05-31 23:06:20,118 [INFO] [Port Loss] DPID=4 Port=3: Loss=0.0000%
+2025-05-31 23:06:20,119 [INFO] [RL Decision] DPID=4  LOSS=0.0000  DELAY=1.08ms  THR=57638B  JIT=31250B  FREE_BW=99.99Mbps  LABEL=Efficient  ACTION=decrease_bw_keep_path
+2025-05-31 23:06:20,119 [INFO] [RL Decision] DPID=1  LOSS=0.0000  DELAY=0.80ms  THR=51956B  JIT=30362B  FREE_BW=99.99Mbps  LABEL=Efficient  ACTION=decrease_bw_keep_path
+2025-05-31 23:06:20,119 [INFO] [RL Decision] DPID=3  LOSS=0.0000  DELAY=8.96ms  THR=25153B  JIT=4759B  FREE_BW=99.99Mbps  LABEL=Efficient  ACTION=increase_bw_reroute
+2025-05-31 23:06:20,120 [INFO] [RL Decision] DPID=2  LOSS=0.0000  DELAY=9.08ms  THR=25356B  JIT=4962B  FREE_BW=99.99Mbps  LABEL=Efficient  ACTION=hold_bw_reroute
+2025-05-31 23:06:20,120 [INFO] [Port Loss] DPID=3 Port=1: Loss=0.0000%
+2025-05-31 23:06:20,120 [INFO] [Port Loss] DPID=3 Port=2: Loss=0.0000%
+2025-05-31 23:06:20,120 [INFO] [Port Loss] DPID=2 Port=4294967294: Loss=100.0000%
+2025-05-31 23:06:20,128 [INFO] [Port Loss] DPID=2 Port=1: Loss=0.0000%
+2025-05-31 23:06:20,128 [INFO] [Port Loss] DPID=2 Port=2: Loss=0.0000%
+2025-05-31 23:06:20,128 [INFO] [Port Loss] DPID=1 Port=4: Loss=0.0000%
+2025-05-31 23:06:20,128 [INFO] [Port Loss] DPID=1 Port=1: Loss=0.0000%
+2025-05-31 23:06:20,128 [INFO] [Port Loss] DPID=1 Port=2: Loss=0.0000%
+2025-05-31 23:06:20,128 [INFO] [Port Loss] DPID=1 Port=3: Loss=0.0000%
+2025-05-31 23:06:20,130 [INFO] Delay for dpid 1: 1.093 ms
+2025-05-31 23:06:20,130 [INFO] Delay for dpid 2: 1.677 ms
+2025-05-31 23:06:20,130 [INFO] Delay for dpid 4: 1.837 ms
+2025-05-31 23:06:20,130 [INFO] Delay for dpid 3: 1.881 ms
+2025-05-31 23:06:25,130 [INFO] Delay for dpid 1: 0.927 ms
+2025-05-31 23:06:25,130 [INFO] Delay for dpid 3: 1.151 ms
+2025-05-31 23:06:25,138 [INFO] Delay for dpid 4: 9.118 ms
+2025-05-31 23:06:25,139 [INFO] Delay for dpid 2: 9.820 ms
+2025-05-31 23:06:30,123 [INFO] [RL Decision] DPID=4  LOSS=0.0000  DELAY=9.12ms  THR=57638B  JIT=31250B  FREE_BW=99.99Mbps  LABEL=Efficient  ACTION=decrease_bw_reroute
+2025-05-31 23:06:30,123 [INFO] [RL Decision] DPID=1  LOSS=0.0000  DELAY=0.93ms  THR=55612B  JIT=30978B  FREE_BW=99.99Mbps  LABEL=Efficient  ACTION=increase_bw_reroute
+2025-05-31 23:06:30,124 [INFO] [RL Decision] DPID=3  LOSS=0.0000  DELAY=1.15ms  THR=29941B  JIT=5477B  FREE_BW=99.99Mbps  LABEL=Efficient  ACTION=hold_bw_reroute
+2025-05-31 23:06:30,124 [INFO] [RL Decision] DPID=2  LOSS=0.0000  DELAY=9.82ms  THR=29496B  JIT=6062B  FREE_BW=99.99Mbps  LABEL=Efficient  ACTION=hold_bw_reroute
+2025-05-31 23:06:30,125 [INFO] [Port Loss] DPID=4 Port=1: Loss=0.0000%
+2025-05-31 23:06:30,125 [INFO] [Port Loss] DPID=4 Port=4: Loss=0.0000%
+2025-05-31 23:06:30,126 [INFO] [Port Loss] DPID=4 Port=2: Loss=0.0000%
+2025-05-31 23:06:30,126 [INFO] [Port Loss] DPID=4 Port=3: Loss=0.0000%
+2025-05-31 23:06:30,126 [INFO] [Port Loss] DPID=3 Port=1: Loss=0.0000%
+2025-05-31 23:06:30,127 [INFO] [Port Loss] DPID=3 Port=2: Loss=0.0000%
+2025-05-31 23:06:30,127 [INFO] [Port Loss] DPID=1 Port=4: Loss=0.0000%
+2025-05-31 23:06:30,127 [INFO] [Port Loss] DPID=1 Port=1: Loss=0.0000%
+2025-05-31 23:06:30,127 [INFO] [Port Loss] DPID=1 Port=2: Loss=0.0000%
+2025-05-31 23:06:30,127 [INFO] [Port Loss] DPID=1 Port=3: Loss=0.0000%
+2025-05-31 23:06:30,127 [INFO] [Port Loss] DPID=2 Port=4294967294: Loss=100.0000%
+2025-05-31 23:06:30,127 [INFO] [Port Loss] DPID=2 Port=1: Loss=0.0000%
+2025-05-31 23:06:30,127 [INFO] [Port Loss] DPID=2 Port=2: Loss=0.0000%
+2025-05-31 23:06:30,130 [INFO] Delay for dpid 4: 0.613 ms
+2025-05-31 23:06:30,130 [INFO] Delay for dpid 1: 0.713 ms
+2025-05-31 23:06:30,130 [INFO] Delay for dpid 2: 0.934 ms
+2025-05-31 23:06:30,130 [INFO] Delay for dpid 3: 1.048 ms
+2025-05-31 23:06:35,131 [INFO] Delay for dpid 3: 0.612 ms
+2025-05-31 23:06:35,131 [INFO] Delay for dpid 1: 0.927 ms
+2025-05-31 23:06:35,132 [INFO] Delay for dpid 2: 1.247 ms
+2025-05-31 23:06:35,132 [INFO] Delay for dpid 4: 1.448 ms
+2025-05-31 23:06:40,129 [INFO] [RL Decision] DPID=4  LOSS=0.0000  DELAY=1.45ms  THR=59136B  JIT=32062B  FREE_BW=99.99Mbps  LABEL=Efficient  ACTION=increase_bw_reroute
+2025-05-31 23:06:40,129 [INFO] [RL Decision] DPID=1  LOSS=0.0000  DELAY=0.93ms  THR=56767B  JIT=31587B  FREE_BW=99.99Mbps  LABEL=Efficient  ACTION=hold_bw_keep_path
+2025-05-31 23:06:40,129 [INFO] [RL Decision] DPID=3  LOSS=0.0000  DELAY=0.61ms  THR=30963B  JIT=5547B  FREE_BW=99.99Mbps  LABEL=Efficient  ACTION=decrease_bw_keep_path
+2025-05-31 23:06:40,130 [INFO] [RL Decision] DPID=2  LOSS=0.0000  DELAY=1.25ms  THR=30448B  JIT=6062B  FREE_BW=99.99Mbps  LABEL=Efficient  ACTION=decrease_bw_keep_path
+2025-05-31 23:06:40,131 [INFO] [Port Loss] DPID=4 Port=1: Loss=0.0000%
+2025-05-31 23:06:40,131 [INFO] [Port Loss] DPID=4 Port=4: Loss=0.0000%
+2025-05-31 23:06:40,131 [INFO] [Port Loss] DPID=4 Port=2: Loss=0.0000%
+2025-05-31 23:06:40,131 [INFO] [Port Loss] DPID=4 Port=3: Loss=0.0000%
+2025-05-31 23:06:40,133 [INFO] [Port Loss] DPID=3 Port=1: Loss=0.0000%
+2025-05-31 23:06:40,133 [INFO] [Port Loss] DPID=3 Port=2: Loss=0.0000%
+2025-05-31 23:06:40,133 [INFO] [Port Loss] DPID=1 Port=4: Loss=0.0000%
+2025-05-31 23:06:40,133 [INFO] [Port Loss] DPID=1 Port=1: Loss=0.0000%
+2025-05-31 23:06:40,133 [INFO] [Port Loss] DPID=1 Port=2: Loss=0.0000%
+2025-05-31 23:06:40,133 [INFO] [Port Loss] DPID=1 Port=3: Loss=0.0000%
+2025-05-31 23:06:40,133 [INFO] [Port Loss] DPID=2 Port=1: Loss=0.0000%
+2025-05-31 23:06:40,133 [INFO] [Port Loss] DPID=2 Port=2: Loss=0.0000%
+2025-05-31 23:06:40,133 [INFO] Delay for dpid 4: 2.152 ms
+2025-05-31 23:06:40,134 [INFO] Delay for dpid 3: 2.208 ms
+2025-05-31 23:06:40,134 [INFO] Delay for dpid 2: 2.276 ms
+2025-05-31 23:06:40,134 [INFO] Delay for dpid 1: 2.373 ms
+2025-05-31 23:06:45,133 [INFO] Delay for dpid 4: 0.666 ms
+2025-05-31 23:06:45,134 [INFO] Delay for dpid 3: 1.248 ms
+2025-05-31 23:06:45,134 [INFO] Delay for dpid 2: 1.377 ms
+2025-05-31 23:06:45,134 [INFO] Delay for dpid 1: 1.569 ms
+2025-05-31 23:06:50,132 [INFO] [RL Decision] DPID=4  LOSS=0.0000  DELAY=0.67ms  THR=61124B  JIT=33084B  FREE_BW=99.99Mbps  LABEL=Efficient  ACTION=increase_bw_reroute
+2025-05-31 23:06:50,132 [INFO] [RL Decision] DPID=1  LOSS=0.0000  DELAY=1.57ms  THR=58755B  JIT=32609B  FREE_BW=99.99Mbps  LABEL=Efficient  ACTION=decrease_bw_keep_path
+2025-05-31 23:06:50,133 [INFO] [RL Decision] DPID=3  LOSS=0.0000  DELAY=1.25ms  THR=32055B  JIT=5547B  FREE_BW=99.99Mbps  LABEL=Efficient  ACTION=hold_bw_reroute
+2025-05-31 23:06:50,133 [INFO] [RL Decision] DPID=2  LOSS=0.0000  DELAY=1.38ms  THR=31540B  JIT=6062B  FREE_BW=99.99Mbps  LABEL=Efficient  ACTION=increase_bw_reroute
+2025-05-31 23:06:50,137 [INFO] Delay for dpid 3: 2.621 ms
+2025-05-31 23:06:50,137 [INFO] Delay for dpid 1: 2.867 ms
+2025-05-31 23:06:50,137 [INFO] Delay for dpid 2: 2.931 ms
+2025-05-31 23:06:50,137 [INFO] Delay for dpid 4: 3.067 ms
