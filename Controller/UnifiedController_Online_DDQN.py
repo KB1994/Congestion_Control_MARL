@@ -95,7 +95,7 @@ class UnifiedController(app_manager.RyuApp):
         input_dim  = 5 + num_labels
         self.ddqn_agent = DDQNAgent(input_dim=input_dim)
 
-        npz_path = "/home/kboussaoud/mawi_data/New_test/ddqn_model_weights.npz"
+        npz_path = "./ddqn_model_weights.npz"
         if not os.path.exists(npz_path):
             raise FileNotFoundError(f"DDQN weights file not found: {npz_path}")
 
