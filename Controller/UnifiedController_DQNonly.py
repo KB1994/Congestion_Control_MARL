@@ -103,7 +103,7 @@ class UnifiedController_DQNonly(app_manager.RyuApp):
         self.dqn_agent = DQNAgent(input_dim=input_dim)
 
         # — Load pretrained .npz weights —
-        npz_path = "/home/kboussaoud/mawi_data/New_test/dqn_only_weights.npz"  # ← must match what you saved in train_dqn_only.py
+        npz_path = "./dqn_only_weights.npz"  # ← must match what you saved in train_dqn_only.py
         if not os.path.exists(npz_path):
             raise FileNotFoundError(f"DQN weights file not found: {npz_path}")
 
