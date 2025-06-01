@@ -16,14 +16,6 @@ if not os.path.exists(csv_path):
 
 df = pd.read_csv(csv_path)
 
-# Required raw columns in this CSV:
-#   avg_loss_pct  → average packet‐loss percentage
-#   delay         → delay in ms
-#   speed         → throughput in Mbps
-#   free_bw       → free bandwidth in Mbps
-# There is no explicit "jitter" column: we will compute a simple proxy
-# by taking |speed_current – speed_prev| over the dataset. For the first row,
-# we’ll set jitter=0.
 
 # 1) Convert avg_loss_pct (%) → loss fraction
 df["loss_frac"] = df["avg_loss_pct"] / 100.0
